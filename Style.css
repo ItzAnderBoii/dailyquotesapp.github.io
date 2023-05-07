@@ -1,0 +1,79 @@
+.main {
+  background: black;
+}
+
+.app {
+  text-align: center;
+  margin: 20px auto;
+  background: black;
+}
+
+
+.text-box { /* Input */
+  resize: none;
+  height: 235px;
+  width: 60%;
+  border-radius: 2px;
+  font-size: 23px;
+  transition: all .2s;
+  color: white;
+  background: black;
+  font-family: Sans-Serif;
+  border: none;
+}
+
+.text-box:focus {
+  outline: none !important;
+    border:1px solid white;
+    box-shadow: 0 0 10px #edeff0;
+}
+
+#lengthresult {
+  color: white;
+  font-family: Verdana;
+}
+
+.max {
+  color: white;
+  font-family: Verdana;
+}
+
+.quotesign {
+  color: white;
+  font-size: 65px;
+}
+
+.results {
+  text-align: center;
+  margin: -59px auto;
+}
+
+.share {
+  height: 40px;
+  transition: all .2s;
+}
+
+
+.leave {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.download {
+  height: 45px;
+  margin-left: 35px;
+  transition: all .2s;
+}
+
+.download:active {
+  transform: scale(1.1);
+}
+
+.icons {
+  text-align: center;
+  margin: 110px auto;
+}
+
+.share:active {
+  transform: scale(1.1);
+}
